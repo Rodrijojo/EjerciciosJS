@@ -1,0 +1,57 @@
+.caja {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    min-height: 100vh;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#caja2 {
+    height: 200px;
+    width: 200px;
+    background-color: gray;
+    border: solid;
+    display: flex;
+    justify-content: center;
+}
+
+#button3 {
+    background-color: rgb(81, 81, 242);
+}
+
+#contenedor3 {
+    display: flex;
+    flex-direction: column;
+}
+
+#contenedor3 button{
+    margin-top: 1rem;
+}
+
+#contenedor3B {
+    display: flex;
+    align-items: center;
+    border: solid;
+    padding: 10px;
+    gap: 1rem;
+}
+
+#contenedor4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+}
